@@ -9,57 +9,145 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <script
+      src="https://kit.fontawesome.com/c93e62006a.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Terrance Chang Portfolio</title>
   </head>
   <body>
-    <header>
-      <nav class="navBar">
-        <ul class="quickAccessLinks">
-          <li><a class="nav-link scroll" href="#about">Background</a></li>
-          <li><a class="nav-link scroll" href="#work">Projects</a></li>
-          <li>
-            <a class="nav-link scroll" href="#interviewVideo">
-              Meet the Creator
-            </a>
-          </li>
-
-          <li>
-            <a
-              id="socialMedia"
-              class="fa fa-linkedin"
-              aria-hidden="false"
-              target="_blank"
-              href="https://www.linkedin.com/in/terrance-chang/"
-            ></a>
-          </li>
-          <li>
-            <a
-              id="socialMedia"
-              class="fa fa-github"
-              aria-hidden="true"
-              target="_blank"
-              href="https://github.com/tchang46343"
-            ><a>
-          </li>
-          <li>
-              <a
-                id="socialMedia"
-                class="fa fa-envelope" 
-                aria-hidden="true"
-                href="mailto:tchang46343@gmail.com" 
-                target="_blank"
-              ><a>
+<!----------------------------------------------------- NavBar Start ----------------------------------------------->
+    <div class="container">
+      <header>
+        <img class="tcPortrait" src="Project Images/tcPic.jpg"></img>
+        <nav class="navBar">
+          <ul>
+            <li><a class="nav-link" href="#about">Background</a></li>
+            <li><a class="nav-link" href="#work">Projects</a></li>
+            <li>
+              <a class="nav-link" href="#interviewVideo">
+                Meet the Creator
+              </a>
             </li>
-        </ul>
-      </nav>
-    </header>
+          </ul>
+        </nav>
+      </header>
+<!------------------------------------------------------ Intro Start ------------------------------------------------>
+      <div class="introToDev">
+          <h1> I'm Terrance.</h1>
+          <p>A Front-End Web Developer!</p>
+      </div>
+<!----------------------------------------------- Project Collections Start ----------------------------------------->
+      <section class="projects">
+            <img class="project1Img" src="Project Images/Build-It.png" alt="Build-It App" />
+              <div class="buildItSummary">
+                <header>Build-It</header>
+                <p>
+                  Build-It is a search engine that finds information on how to complete DIY projects.
+                  By utilize the search engine you can find how-to-video to start a project
+                  and get inspired with product items decore to give your project a special touch.
+                </p>
 
-    <section class="projects"></section>
+                  <div class="backUp">
+                      <a
+                        class="linkColor"
+                        target="_blank"
+                        href="https://github.com/tchang46343/DIY-Buddy"
+                        >View Codebase</a
+                      >
+                    |
+                      <a
+                        class="linkColor"
+                        target="_blank"
+                        href="https://tchang46343.github.io/DIY-Buddy/"
+                        >Click to launch App!</a
+                      >
+                    </div>
+              </div>
+            <img class="project1Img" src="Project Images/Mediationofmind.png" alt="Meditation-of-mind App"/>
+              <div class="moitvateMindSummary">
+                <p>
+                  Motivate The Mind is a mental health game designed to relieve stress
+                  and anxiety during the COVID-19 Pandemic. Once the game is completed users should feel 
+                  an emotional repsonses of positivity and relief. 
+                  
+                </p>
+                <div class="backUp">
+                  <a
+                    class="linkColor"
+                    target="_blank"
+                    href="https://github.com/tchang46343/mindgame-app.git"
+                    >View Client Codebase</a
+                  >
+                  |
+                  <a
+                    class="linkColor"
+                    target="_blank"
+                    href="https://github.com/tchang46343/mind-game-api"
+                    >View Server Codebase</a
+                  >
+                  |
+                  <a
+                    class="linkColor"
+                    target="_blank"
+                    href="https://mindgame-app.now.sh/"
+                    >Click to Play!</a
+                  >
+                </div>
+              </div>
+              <img class="project1Img" src="Project Images/quizapp.jpg" alt="quizapp" />
+                <div>
+                    <p>
+                      Automotive Quiz is a testing application that enables service center hiring managers
+                      to test prospective mechanic's knoledge. The application allows the
+                      user to go through a series of questions and tells the employer if
+                      their answer was right or wrong. Once the test is completed user get redirect to a result 
+                      page where they will recieve user a passed or fail repsonses. Utilization of
+                      this application can be a supplemental feature during the interview
+                      process of hiring a potential service technician. 
+                    </p>
+                    <div class="backUp">
+                      <a
+                        class="linkColor"
+                        target="_blank"
+                        href="https://github.com/tchang46343/quiz-app"
+                        >View Codebase</a
+                      >
+                      |
+                      <a
+                        class="linkColor"
+                        target="_blank"
+                        href="https://tchang46343.github.io/quiz-app/"
+                        > Click to Take Test!</a
+                      >
+                    </div>
+                  </div>  
+      
 
-    <div class="videoAbout"></div>
+      </section>
+<!---------------------------------------------- Meet the developer Video ------------------------------------------->
+      <div class="videoAbout"></div>
 
-    <div class="aboutMe"></div>
+<!----------------------------------------------------- About Section ------------------------------------------------------->
+      <div class="aboutMe"></div>
+<!-------------------------------------------------------- Contacts --------------------------------------------------------->
+      <div class="contactsDev">
+        <!-- <li><a id="socialMedia" class="fa fa-linkedin" aria-hidden="false" target="_blank" href="https://www.linkedin.com/in/terrance-chang/"></a>
+                        </li>
+                        <li>
+                          <a
+                            id="socialMedia"
+                            class="fa fa-github"
+                            aria-hidden="true"
+                            target="_blank"
+                            href="https://github.com/tchang46343"
+                          ><a>
+                        </li> -->
+      </div>
 
-    <footer class="copyrights"></footer>
+      <footer class="copyrights">
+          © 2020 Terrance Chang. All Rights Reserved.
+      </footer>
+    </div>
   </body>
 </html>
