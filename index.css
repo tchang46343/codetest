@@ -4,7 +4,14 @@ html {
 }
 body {
   margin: 5px 0px;
+
   /* line-height: 1.4; */
+}
+
+.navControls {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  padding: 10px;
 }
 
 img {
@@ -13,13 +20,72 @@ img {
 }
 
 ul {
-  margin: 5px 0px;
-  padding: 0px;
+  padding: 10px 5px;
+  padding-inline-start: 0px;
+  text-align: center;
 }
 
+li {
+  display: inline;
+  padding: 0px 5%;
+}
+.nav-link {
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: bold;
+}
+.introToDev {
+  text-align: center;
+  margin: 10px;
+}
+.introText {
+  margin: 0;
+  padding: 0;
+  white-space: none;
+}
+.greeting {
+  margin: 0;
+}
 .projects {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
+}
+.worksCollections {
+  margin: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.designTitles {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+.projectImages {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  height: auto;
+  padding: 10px;
+}
+.designsummary {
+  margin: 0;
+}
+.designLinks {
+  margin-bottom: 10%;
+  text-align: center;
+}
+.jumpToLinks {
+  text-decoration: none;
+  list-style-type: none;
+  color: red;
+}
+
+.copyrights {
+  text-align: center;
+  font-size: 12px;
 }
 /*
 .quickAccessLinks {
