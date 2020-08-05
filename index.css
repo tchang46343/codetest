@@ -15,14 +15,17 @@ body {
 }
 
 img {
-  width: 5rem;
-  height: 5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 ul {
   padding: 10px 5px;
   padding-inline-start: 0px;
   text-align: center;
+  width: 100%;
 }
 
 li {
@@ -71,11 +74,17 @@ li {
   padding: 10px;
 }
 .designsummary {
-  margin: 0;
+  margin: 15px;
+  padding: 0px 30px;
 }
 .designLinks {
   margin-bottom: 10%;
   text-align: center;
+  font-size: 12px;
+}
+
+.designLinks :hover {
+  color: blue;
 }
 .jumpToLinks {
   text-decoration: none;
@@ -87,6 +96,13 @@ li {
   text-align: center;
   font-size: 12px;
 }
+
+@media screen and (min-width: 500px) {
+  li {
+    padding-left: 8%;
+  }
+}
+
 /*
 .quickAccessLinks {
   list-style-type: none;
